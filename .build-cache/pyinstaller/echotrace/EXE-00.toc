@@ -1,0 +1,70 @@
+('/home/ilan/Bureau/Claude '
+ 'Workspace/EchoTrace/.build-cache/pyinstaller/echotrace/EchoTrace',
+ False,
+ False,
+ True,
+ None,
+ None,
+ False,
+ False,
+ None,
+ True,
+ False,
+ None,
+ None,
+ None,
+ '/home/ilan/Bureau/Claude '
+ 'Workspace/EchoTrace/.build-cache/pyinstaller/echotrace/EchoTrace.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.build-cache/pyinstaller/echotrace/PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.build-cache/pyinstaller/echotrace/localpycs/struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.build-cache/pyinstaller/echotrace/localpycs/pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.build-cache/pyinstaller/echotrace/localpycs/pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.build-cache/pyinstaller/echotrace/localpycs/pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.venv/lib/python3.14/site-packages/PyInstaller/loader/pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.venv/lib/python3.14/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt6',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.venv/lib/python3.14/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pyqt6.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.venv/lib/python3.14/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.venv/lib/python3.14/site-packages/PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('__main__',
+   '/home/ilan/Bureau/Claude Workspace/EchoTrace/src/echotrace/__main__.py',
+   'PYSOURCE')],
+ [],
+ False,
+ False,
+ 1792235251,
+ [('run',
+   '/home/ilan/Bureau/Claude '
+   'Workspace/EchoTrace/.venv/lib/python3.14/site-packages/PyInstaller/bootloader/Linux-64bit-intel/run',
+   'EXECUTABLE')],
+ '/home/ilan/.local/share/uv/python/cpython-3.14.0-linux-x86_64-gnu/lib/libpython3.14.so.1.0')

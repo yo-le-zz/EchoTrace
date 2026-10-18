@@ -1,0 +1,117 @@
+# EchoTrace - OSINT Correlation Engine
+# Requirements for Python 3.8+
+
+# GUI
+PyQt6==6.6.1
+
+# Web scraping & HTTP
+aiohttp==3.9.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Image processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Data analysis & visualization
+networkx==3.2.1
+pyvis==0.3.2
+matplotlib==3.8.2
+
+# Templates
+Jinja2==3.1.2
+
+# Database
+sqlite3  # Built-in with Python
+
+# Async utilities
+asyncio  # Built-in with Python
+
+# PDF generation (optional)
+reportlab==4.0.7
+
+# Hashing & crypto
+hashlib  # Built-in with Python
+
+# JSON handling
+json  # Built-in with Python
+
+# Date/time
+datetime  # Built-in with Python
+
+# OS utilities
+os  # Built-in with Python
+pathlib  # Built-in with Python
+
+# Type hints
+typing  # Built-in with Python
+
+# Configuration
+configparser  # Built-in with Python
+
+# Logging
+logging  # Built-in with Python
+
+# Random utilities
+random  # Built-in with Python
+
+# Time utilities
+time  # Built-in with Python
+
+# Dataclasses
+dataclasses  # Built-in with Python (Python 3.7+)
+
+# Abstract base classes
+abc  # Built-in with Python
+
+# Collections
+collections  # Built-in with Python
+
+# Context variables
+contextvars  # Built-in with Python (Python 3.7+)
+
+# CSV handling
+csv  # Built-in with Python
+
+# HTML parsing
+html.parser  # Built-in with Python
+
+# URL parsing
+urllib.parse  # Built-in with Python
+
+# Base64 encoding
+base64  # Built-in with Python
+
+# Threading
+threading  # Built-in with Python
+concurrent.futures  # Built-in with Python
+
+# Queue
+queue  # Built-in with Python
+
+# Weak references
+weakref  # Built-in with Python
+
+# Copy utilities
+copy  # Built-in with Python
+
+# Regular expressions
+re  # Built-in with Python
+
+# Math functions
+math  # Built-in with Python
+
+# Statistics
+statistics  # Built-in with Python
+
+# File system operations
+pathlib  # Built-in with Python
+shutil  # Built-in with Python
+
+# Temporary files
+tempfile  # Built-in with Python
+
+# System-specific parameters
+sys  # Built-in with Python
+platform  # Built-in with Python

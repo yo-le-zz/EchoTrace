@@ -1,0 +1,2 @@
+# Fallback for pip users. The supported workflow is uv (see README.md and pyproject.toml).
+.

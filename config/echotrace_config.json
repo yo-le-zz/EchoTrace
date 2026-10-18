@@ -1,0 +1,18 @@
+{
+  "hibp_api_key": "",
+  "hunter_api_key": "51de36a245e5809d59526286622db354bb9cacea",
+  "github_token": "",
+  "request_timeout": 10,
+  "request_delay_min": 0.3,
+  "request_delay_max": 1.5,
+  "max_concurrent": 50,
+  "use_proxies": false,
+  "proxy_list": [],
+  "cache_enabled": true,
+  "cache_ttl_hours": 24,
+  "min_score_required": 100,
+  "confidence_threshold": 0.6,
+  "theme": "catppuccin_macchiato",
+  "language": "fr",
+  "export_dir": ""
+}

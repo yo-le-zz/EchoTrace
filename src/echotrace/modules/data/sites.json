@@ -1,0 +1,62 @@
+{
+  "_comment": "Sites testés par le module pseudo. check: status_200 | body_contains | body_not_contains. reliability: high | medium | low (low = page de connexion ou application JS, un 200 prouve peu). probe: site rapide et fiable utilisé en première passe. known_user: compte réel connu pour scripts/check_sites.py. Ajoutez vos propres sites dans <dossier de configuration>/sites.json (même format).",
+  "sites": [
+    {"name": "GitHub", "url": "https://github.com/{}", "check": "status_200", "reliability": "high", "probe": true, "known_user": "torvalds"},
+    {"name": "GitLab", "url": "https://gitlab.com/{}", "check": "status_200", "reliability": "high", "probe": true},
+    {"name": "Reddit", "url": "https://www.reddit.com/user/{}", "check": "body_not_contains", "marker": "Sorry, nobody on Reddit goes by that name", "reliability": "medium", "probe": true, "known_user": "spez"},
+    {"name": "HackerNews", "url": "https://news.ycombinator.com/user?id={}", "check": "body_contains", "marker": "created", "reliability": "high", "probe": true, "known_user": "pg"},
+    {"name": "Dev.to", "url": "https://dev.to/{}", "check": "status_200", "reliability": "high", "probe": true, "known_user": "ben"},
+    {"name": "Keybase", "url": "https://keybase.io/{}", "check": "status_200", "reliability": "high", "probe": true, "known_user": "chris"},
+    {"name": "Chess.com", "url": "https://www.chess.com/member/{}", "check": "status_200", "reliability": "high", "probe": true, "known_user": "hikaru"},
+    {"name": "Lichess", "url": "https://lichess.org/@/{}", "check": "status_200", "reliability": "high", "probe": true, "known_user": "thibault"},
+    {"name": "Gravatar", "url": "https://en.gravatar.com/{}", "check": "status_200", "reliability": "high", "probe": true},
+    {"name": "Telegram", "url": "https://t.me/{}", "check": "body_not_contains", "marker": "If you have Telegram", "reliability": "high", "probe": true, "known_user": "durov"},
+    {"name": "Steam", "url": "https://steamcommunity.com/id/{}", "check": "body_not_contains", "marker": "The specified profile could not be found", "reliability": "high", "probe": true},
+    {"name": "Last.fm", "url": "https://www.last.fm/user/{}", "check": "status_200", "reliability": "high", "probe": true, "known_user": "rj"},
+    {"name": "PyPI", "url": "https://pypi.org/user/{}/", "check": "status_200", "reliability": "high", "probe": true},
+    {"name": "Linktree", "url": "https://linktr.ee/{}", "check": "status_200", "reliability": "high", "probe": true},
+
+    {"name": "Twitter/X", "url": "https://twitter.com/{}", "check": "body_not_contains", "marker": "This account doesn\u2019t exist", "reliability": "low"},
+    {"name": "Instagram", "url": "https://www.instagram.com/{}/", "check": "status_200", "reliability": "low"},
+    {"name": "TikTok", "url": "https://www.tiktok.com/@{}", "check": "body_not_contains", "marker": "Couldn\u2019t find this account", "reliability": "medium"},
+    {"name": "YouTube", "url": "https://www.youtube.com/@{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Twitch", "url": "https://www.twitch.tv/{}", "check": "body_not_contains", "marker": "Sorry. Unless you\u2019ve got a time machine", "reliability": "low"},
+    {"name": "Pinterest", "url": "https://www.pinterest.com/{}/", "check": "status_200", "reliability": "medium"},
+    {"name": "Snapchat", "url": "https://www.snapchat.com/add/{}", "check": "body_not_contains", "marker": "Sorry, we couldn\u2019t find", "reliability": "medium"},
+    {"name": "LinkedIn", "url": "https://www.linkedin.com/in/{}/", "check": "status_200", "reliability": "low"},
+
+    {"name": "Bitbucket", "url": "https://bitbucket.org/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Stack Overflow", "url": "https://stackoverflow.com/users/{}", "check": "status_200", "reliability": "low"},
+    {"name": "Codepen", "url": "https://codepen.io/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Replit", "url": "https://replit.com/@{}", "check": "status_200", "reliability": "medium"},
+    {"name": "NPM", "url": "https://www.npmjs.com/~{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Pastebin", "url": "https://pastebin.com/u/{}", "check": "status_200", "reliability": "medium"},
+
+    {"name": "Roblox", "url": "https://www.roblox.com/user.aspx?username={}", "check": "body_not_contains", "marker": "Page cannot be found", "reliability": "medium"},
+    {"name": "Minecraft", "url": "https://api.mojang.com/users/profiles/minecraft/{}", "check": "status_200", "reliability": "high"},
+
+    {"name": "Behance", "url": "https://www.behance.net/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Dribbble", "url": "https://dribbble.com/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "ArtStation", "url": "https://www.artstation.com/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "DeviantArt", "url": "https://www.deviantart.com/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Wattpad", "url": "https://www.wattpad.com/user/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Soundcloud", "url": "https://soundcloud.com/{}", "check": "status_200", "reliability": "medium"},
+
+    {"name": "Medium", "url": "https://medium.com/@{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Tumblr", "url": "https://{}.tumblr.com", "check": "status_200", "reliability": "medium"},
+    {"name": "Quora", "url": "https://www.quora.com/profile/{}", "check": "status_200", "reliability": "low"},
+    {"name": "Disqus", "url": "https://disqus.com/by/{}/", "check": "status_200", "reliability": "medium"},
+    {"name": "About.me", "url": "https://about.me/{}", "check": "status_200", "reliability": "medium"},
+
+    {"name": "Vimeo", "url": "https://vimeo.com/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Dailymotion", "url": "https://www.dailymotion.com/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Spotify", "url": "https://open.spotify.com/user/{}", "check": "status_200", "reliability": "low"},
+
+    {"name": "Flickr", "url": "https://www.flickr.com/people/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "Ebay", "url": "https://www.ebay.fr/usr/{}", "check": "status_200", "reliability": "low"},
+    {"name": "Etsy", "url": "https://www.etsy.com/shop/{}", "check": "status_200", "reliability": "medium"},
+    {"name": "ProductHunt", "url": "https://www.producthunt.com/@{}", "check": "status_200", "reliability": "low"},
+    {"name": "AngelList", "url": "https://angel.co/u/{}", "check": "status_200", "reliability": "low"},
+    {"name": "Crunchbase", "url": "https://www.crunchbase.com/person/{}", "check": "status_200", "reliability": "low"}
+  ]
+}
